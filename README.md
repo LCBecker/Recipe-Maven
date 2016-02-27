@@ -5,6 +5,7 @@
 To run this application, you will need to have MongoDB installed and running (mongod) before executing the jar file.
 
 To run:
+
 1. cd Recipe-Maven
 2. java -jar target/recipemaven-0.0.1-SNAPSHOT.jar server
 
