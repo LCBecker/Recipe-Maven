@@ -65,7 +65,8 @@ public class RecipeResource {
 	 * @return OK if added successfully.
 	 */
 	@POST
-	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+	@Path("/new")
+	@Consumes(MediaType.APPLICATION_JSON)
 	public Response createRecipe(Recipe recipe) {
 		ObjectMapper mapper = new ObjectMapper();
 		Document newRecipe = null;
